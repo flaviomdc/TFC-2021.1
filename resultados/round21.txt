@@ -1,0 +1,88 @@
+-------------------------------------------------------------------
+                Welcome to TARZAN (Version 3.0)
+        Copyright (c) 2001 Tim Menzies (tim@menzies.com)
+              Copy policy: GPL-2 (see www.gnu.org)
+
+...while on high, our hero watches for the right chance to strike!
+-------------------------------------------------------------------
+
+NOW: specified
+CHANGES: specified
+Warning! Max treatment size must <= total attributes! Reset to 3
+
+Config: granularity  5
+        maxNumber    100
+        minSize      1
+        maxSize      3
+        randomTrials 50
+        futileTrials 10
+        bestClass    50.00%
+
+
+Read 413 cases (3 attributes) from compras.data
+
+ Worth=1.000000
+ Treatment:[No Treatment]
+
+       muitoruim:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  [   376 - 91%] 
+            ruim:                                [     2 -  0%] 
+             bom:                                [     1 -  0%] 
+        muitobom:~~                              [    34 -  8%] 
+
+Confidence1 Distribution:
+
+ -12:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  [     3 - 25%] 
+ -10:~~~~~~~~~~                      [     1 -  8%] 
+  -9:~~~~~~~~~~~~~~~~~~~~            [     2 - 17%] 
+  -8:~~~~~~~~~~                      [     1 -  8%] 
+  -7:~~~~~~~~~~~~~~~~~~~~            [     2 - 17%] 
+  -6:~~~~~~~~~~                      [     1 -  8%] 
+  -3:~~~~~~~~~~~~~~~~~~~~            [     2 - 17%] 
+
+4 Treatments learnt after 10 random trials
+
+ 1 worth=1.437992	[preco=[142.500000..613.666016)] 
+ 2 worth=1.240129	[faixa=[2.000000..3.000000)] 
+ 3 worth=1.050230	[incoterm=[0.000000..1.000000)] 
+ 4 worth=1.043677	[preco=[142.500000..613.666016)] [faixa=[2.000000..3.000000)] 
+
+ Worth=1.437992
+ Treatment:[preco=[142.500000..613.666016)]
+
+       muitoruim:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  [    63 - 77%] 
+            ruim:                                [     2 -  2%] 
+             bom:                                [     1 -  1%] 
+        muitobom:~~~~~~~                         [    16 - 20%] 
+
+ Worth=1.240129
+ Treatment:[faixa=[2.000000..3.000000)]
+
+       muitoruim:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  [    57 - 77%] 
+            ruim:~                               [     2 -  3%] 
+             bom:                                [     1 -  1%] 
+        muitobom:~~~~~~~                         [    14 - 19%] 
+
+ Worth=1.050230
+ Treatment:[incoterm=[0.000000..1.000000)]
+
+       muitoruim:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  [   200 - 90%] 
+            ruim:                                [     2 -  1%] 
+             bom:                                [     0 -  0%] 
+        muitobom:~~~                             [    21 -  9%] 
+
+ Worth=1.043677
+ Treatment:[preco=[142.500000..613.666016)
+            faixa=[2.000000..3.000000)]
+
+       muitoruim:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  [    51 - 77%] 
+            ruim:~                               [     2 -  3%] 
+             bom:                                [     1 -  2%] 
+        muitobom:~~~~~~~                         [    12 - 18%] 
+
+
+---- 05/11/21 07:52:20 ---
+   Setup: 0 sec
+ Compute: 0 sec
+   Apply: 0 sec
+   Total: 0 sec
+--------------------------

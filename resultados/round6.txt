@@ -1,0 +1,68 @@
+-------------------------------------------------------------------
+                Welcome to TARZAN (Version 3.0)
+        Copyright (c) 2001 Tim Menzies (tim@menzies.com)
+              Copy policy: GPL-2 (see www.gnu.org)
+
+...while on high, our hero watches for the right chance to strike!
+-------------------------------------------------------------------
+
+NOW: specified
+CHANGES: specified
+Warning! Max treatment size must <= total attributes! Reset to 2
+
+Config: granularity  5
+        maxNumber    100
+        minSize      1
+        maxSize      2
+        randomTrials 50
+        futileTrials 10
+        bestClass    50.00%
+
+
+Read 219 cases (2 attributes) from compras.data
+
+ Worth=1.000000
+ Treatment:[No Treatment]
+
+       muitoruim:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  [   152 - 69%] 
+            ruim:~~~~                            [    22 - 10%] 
+             bom:~~                              [    12 -  5%] 
+        muitobom:~~~~~~                          [    33 - 15%] 
+
+Confidence1 Distribution:
+
+ -12:~~~~~~~~~~~~~~~                 [     1 - 14%] 
+  -6:~~~~~~~~~~~~~~~                 [     1 - 14%] 
+  -5:~~~~~~~~~~~~~~~                 [     1 - 14%] 
+  -4:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  [     2 - 29%] 
+  -2:~~~~~~~~~~~~~~~                 [     1 - 14%] 
+   1:~~~~~~~~~~~~~~~                 [     1 - 14%] 
+
+2 Treatments learnt after 10 random trials
+
+ 1 worth=1.192747	[preco=[84.133163..719.755920)] 
+ 2 worth=1.008169	[incoterm=[0.000000..1.000000)] 
+
+ Worth=1.192747
+ Treatment:[preco=[84.133163..719.755920)]
+
+       muitoruim:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  [    23 - 53%] 
+            ruim:~~                              [     2 -  5%] 
+             bom:~~~~~~                          [     5 - 12%] 
+        muitobom:~~~~~~~~~~~~~~~~                [    13 - 30%] 
+
+ Worth=1.008169
+ Treatment:[incoterm=[0.000000..1.000000)]
+
+       muitoruim:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  [    93 - 73%] 
+            ruim:~                               [     6 -  5%] 
+             bom:~~                              [     8 -  6%] 
+        muitobom:~~~~~~                          [    20 - 16%] 
+
+
+---- 04/27/21 16:32:43 ---
+   Setup: 0 sec
+ Compute: 0 sec
+   Apply: 0 sec
+   Total: 0 sec
+--------------------------

@@ -1,0 +1,57 @@
+-------------------------------------------------------------------
+                Welcome to TARZAN (Version 3.0)
+        Copyright (c) 2001 Tim Menzies (tim@menzies.com)
+              Copy policy: GPL-2 (see www.gnu.org)
+
+...while on high, our hero watches for the right chance to strike!
+-------------------------------------------------------------------
+
+NOW: specified
+CHANGES: specified
+Warning! Max treatment size must <= total attributes! Reset to 2
+
+Config: granularity  5
+        maxNumber    100
+        minSize      1
+        maxSize      2
+        randomTrials 50
+        futileTrials 10
+        bestClass    50.00%
+
+
+Read 4107 cases (2 attributes) from compras.data
+
+ Worth=1.000000
+ Treatment:[No Treatment]
+
+       muitoruim:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  [  2159 - 53%] 
+            ruim:~~~~~~~~~~                      [   730 - 18%] 
+             bom:~~~~~~~                         [   553 - 13%] 
+        muitobom:~~~~~~~~~                       [   665 - 16%] 
+
+Confidence1 Distribution:
+
+  -8:~~~~~~~~~~                      [     1 - 14%] 
+  -5:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  [     3 - 43%] 
+  -1:~~~~~~~~~~                      [     1 - 14%] 
+   0:~~~~~~~~~~~~~~~~~~~~            [     2 - 29%] 
+
+1 Treatments learnt after 10 random trials
+
+ 1 worth=1.226889	[incoterm=[0.000000..1.000000)] 
+
+ Worth=1.226889
+ Treatment:[incoterm=[0.000000..1.000000)]
+
+       muitoruim:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  [   841 - 32%] 
+            ruim:~~~~~~~~~~~~~~~~~~~~~~~~        [   687 - 26%] 
+             bom:~~~~~~~~~~~~~~~~~~              [   529 - 20%] 
+        muitobom:~~~~~~~~~~~~~~~~~~~             [   540 - 21%] 
+
+
+---- 04/27/21 15:49:31 ---
+   Setup: 0 sec
+ Compute: 0 sec
+   Apply: 0 sec
+   Total: 0 sec
+--------------------------

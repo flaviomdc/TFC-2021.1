@@ -1,0 +1,115 @@
+-------------------------------------------------------------------
+                Welcome to TARZAN (Version 3.0)
+        Copyright (c) 2001 Tim Menzies (tim@menzies.com)
+              Copy policy: GPL-2 (see www.gnu.org)
+
+...while on high, our hero watches for the right chance to strike!
+-------------------------------------------------------------------
+
+NOW: specified
+CHANGES: specified
+Warning! Max treatment size must <= total attributes! Reset to 3
+
+Config: granularity  5
+        maxNumber    100
+        minSize      1
+        maxSize      3
+        randomTrials 50
+        futileTrials 10
+        bestClass    50.00%
+
+
+Read 14 cases (3 attributes) from compras.data
+
+ Worth=1.000000
+ Treatment:[No Treatment]
+
+       muitoruim:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  [    11 - 79%] 
+            ruim:~~~~~~~~                        [     3 - 21%] 
+             bom:                                [     0 -  0%] 
+        muitobom:                                [     0 -  0%] 
+
+Confidence1 Distribution:
+
+ -12:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  [     8 - 73%] 
+ -11:~~~~~~~                         [     2 - 18%] 
+ -10:~~~                             [     1 -  9%] 
+
+7 Treatments learnt after 10 random trials
+
+ 1 worth=1.647059	[preco=[2256.943604..4027.744629)] [faixa=[4.000000..5.000000)] 
+ 2 worth=1.647059	[preco=[2256.943604..4027.744629)] 
+ 3 worth=1.647059	[faixa=[4.000000..5.000000)] [preco=[2256.943604..4027.744629)] [incoterm=[1.000000..1.000000]] 
+ 4 worth=1.647059	[incoterm=[1.000000..1.000000]] [preco=[2256.943604..4027.744629)] 
+ 5 worth=1.098039	[incoterm=[1.000000..1.000000]] [faixa=[4.000000..5.000000)] 
+ 6 worth=1.098039	[faixa=[4.000000..5.000000)] 
+ 7 worth=1.058823	[incoterm=[1.000000..1.000000]] 
+
+ Worth=1.647059
+ Treatment:[preco=[2256.943604..4027.744629)
+            faixa=[4.000000..5.000000)]
+
+       muitoruim:                                [     0 -  0%] 
+            ruim:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  [     2 - 100%] 
+             bom:                                [     0 -  0%] 
+        muitobom:                                [     0 -  0%] 
+
+ Worth=1.647059
+ Treatment:[preco=[2256.943604..4027.744629)]
+
+       muitoruim:                                [     0 -  0%] 
+            ruim:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  [     2 - 100%] 
+             bom:                                [     0 -  0%] 
+        muitobom:                                [     0 -  0%] 
+
+ Worth=1.647059
+ Treatment:[faixa=[4.000000..5.000000)
+            preco=[2256.943604..4027.744629)
+            incoterm=[1.000000..1.000000]]
+
+       muitoruim:                                [     0 -  0%] 
+            ruim:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  [     1 - 100%] 
+             bom:                                [     0 -  0%] 
+        muitobom:                                [     0 -  0%] 
+
+ Worth=1.647059
+ Treatment:[incoterm=[1.000000..1.000000]
+            preco=[2256.943604..4027.744629)]
+
+       muitoruim:                                [     0 -  0%] 
+            ruim:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  [     1 - 100%] 
+             bom:                                [     0 -  0%] 
+        muitobom:                                [     0 -  0%] 
+
+ Worth=1.098039
+ Treatment:[incoterm=[1.000000..1.000000]
+            faixa=[4.000000..5.000000)]
+
+       muitoruim:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  [     2 - 67%] 
+            ruim:~~~~~~~~~~~~~~~                 [     1 - 33%] 
+             bom:                                [     0 -  0%] 
+        muitobom:                                [     0 -  0%] 
+
+ Worth=1.098039
+ Treatment:[faixa=[4.000000..5.000000)]
+
+       muitoruim:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  [     4 - 67%] 
+            ruim:~~~~~~~~~~~~~~~                 [     2 - 33%] 
+             bom:                                [     0 -  0%] 
+        muitobom:                                [     0 -  0%] 
+
+ Worth=1.058823
+ Treatment:[incoterm=[1.000000..1.000000]]
+
+       muitoruim:~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  [     5 - 71%] 
+            ruim:~~~~~~~~~~~~                    [     2 - 29%] 
+             bom:                                [     0 -  0%] 
+        muitobom:                                [     0 -  0%] 
+
+
+---- 05/11/21 07:32:07 ---
+   Setup: 0 sec
+ Compute: 0 sec
+   Apply: 0 sec
+   Total: 0 sec
+--------------------------
